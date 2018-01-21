@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Slava Ustiuzhanin](https://up.htmlacademy.ru/adaptive/13/user/347663).
-* Наставник: `Сергей Попов`.
+* Наставник: [Сергей Попов](https://htmlacademy.ru/profile/id42761).
 
 ---
 
