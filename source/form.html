@@ -13,16 +13,14 @@
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">Меню</button>
-        <!-- в общем этот момент с классами я не оч понял поэтому сделал как в барбершопе.
-        нужно было добавлять сайт-лист, или просто все li сделать main-nav__item? -->
         <ul class="main-nav__list site-list">
-          <li class="site-list__item site-list__item--active">
+          <li class="site-list__item">
             <a href="index.html">Главная</a>
           </li>
           <li class="site-list__item">
             <a href="catalog.html">Каталог продукции</a>
           </li>
-          <li class="site-list__item">
+          <li class="site-list__item site-list__item--active">
             <a>Подбор программы</a>
           </li>
         </ul>
@@ -31,7 +29,7 @@
 
     <main class="form-main">
       <section class="request">
-        <div class="h2 request__title">Подбор</div>
+        <h2 class="request__title">Подбор</h2>
         <form class="request__form form" action="https://echo.htmlacademy.ru" method="get">
           <h3 class="form__title">Заполните анкету и мы подберем программу питания для вашего кота</h3>
 
@@ -39,14 +37,14 @@
             <ul class="form__list">
               <li class="form__item">
                 <label class="form__label" for="cats__name">Имя:*</label>
-                <input class="form__input" id="cats__name" name="cats-name" type="text" placeholder="Барсик">
+                <input class="form__input" id="cats__name" name="cats-name" type="text" placeholder="Барсик" required>
               </li>
               <li class="form__item">
                 <label class="form__label" for="cats__weight">Вес (Кг):*</label>
-                <input class="form__input" id="cats__weight" name="cats-weight" type="text" placeholder="7">
+                <input class="form__input" id="cats__weight" name="cats-weight" type="text" placeholder="7" required>
               </li>
               <li class="form__item">
-                <label class="form__label" for="cats__age">Возвраст (лет):*</label>
+                <label class="form__label" for="cats__age">Возвраст (лет):</label>
                 <input class="form__input" id="cats__age" name="cats-age" type="text" placeholder="7">
               </li>
             </ul>
@@ -55,15 +53,15 @@
           <fieldset class="form__fieldset">
             <ul class="form__list">
               <li class="form__item">
-                <input class="form__input" id="cats__loss" name="cats-loss" type="radio">
+                <input class="form__input" id="cats__loss" name="cats-purpose" type="radio" value="cats-loss">
                 <label class="form__label" for="cats__loss">Похудение</label>
               </li>
               <li class="form__item">
-                <input class="form__input" id="cats__gain" name="cats-gain" type="radio">
+                <input class="form__input" id="cats__gain" name="cats-purpose" type="radio" value="cats-gain">
                 <label class="form__label" for="cats__gain">Набор массы</label>
               </li>
               <li class="form__item">
-                <input class="form__input" id="cats__dunno" name="cats-dunno" type="radio">
+                <input class="form__input" id="cats__dunno" name="cats-purpose" type="radio" value="cats-dunno">
                 <label class="form__label" for="cats__dunno">Не знаю (нужен ваш совет)</label>
               </li>
             </ul>
@@ -74,11 +72,11 @@
             <ul class="form__list">
               <li class="form__item">
                 <label class="form__label" for="owner__email">E-mail:*</label>
-                <input class="form__input" id="owner__email" name="owner-email" type="text" placeholder="kuklachev@gmail.com">
+                <input class="form__input" id="owner__email" name="owner-email" type="text" placeholder="kuklachev@gmail.com" required>
               </li>
               <li class="form__item">
                 <label class="form__label" for="owner__phone">Телефон:*</label>
-                <input class="form__input" id="owner__phone" name="owner-phone" type="text" placeholder="8 (960) 900-60-90">
+                <input class="form__input" id="owner__phone" name="owner-phone" type="text" placeholder="8 (960) 900-60-90" required>
               </li>
             </ul>
           </fieldset>
@@ -87,7 +85,7 @@
             <legend class="form__legend">Комментарий</legend>
             <ul class="form__list">
               <li class="form__item">
-                <textarea name="form__comment" cols="40" rows="3" placeholder="Расскажите обо всех повадках кота"></textarea>
+                <textarea name="form-comment" cols="40" rows="3" placeholder="Расскажите обо всех повадках кота"></textarea>
               </li>
             </ul>
           </fieldset>
