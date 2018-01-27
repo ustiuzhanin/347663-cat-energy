@@ -1,0 +1,18 @@
+.catcher {
+  padding: 0 20px;
+
+  font-family: $ff-primary;
+  color: $color-text-tertiary;
+  text-align: center;
+  &__headline {
+    margin-bottom: 20px;
+
+    font-size: 36px;
+    line-height: 36px;
+  }
+  &__caption {
+    font-size: 14px;
+    line-height: 14px;
+    text-transform: uppercase;
+  }
+}

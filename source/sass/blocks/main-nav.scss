@@ -1,0 +1,19 @@
+.main-nav {
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  &__list {
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+  }
+  &__link {
+    display: inline-block;
+    padding: 20px;
+
+    text-decoration: none;
+    color: $color-text-primary;
+  }
+}
