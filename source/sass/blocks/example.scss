@@ -5,6 +5,7 @@
   color: $color-text-secondary;
 
   background-color: $color-bg-dark;
+
   &__title {
     margin: 0;
 
@@ -14,20 +15,24 @@
     color: $color-text-primary;
     font-weight: normal;
   }
+
   &__subject {
     font-size: 14px;
     line-height: 18px;
   }
+
   &__result {
     font-size: 12px;
     line-height: 12px;
   }
+
   &__facts {
     font-family: $ff-primary;
     font-size: 24px;
     line-height: 24px;
     text-transform: uppercase;
   }
+
   &__cost-fact {
     font-family: $ff-primary;
     font-size: 14px;

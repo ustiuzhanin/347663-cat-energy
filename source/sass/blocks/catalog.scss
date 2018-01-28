@@ -5,6 +5,7 @@
   color: $color-text-secondary;
 
   background-color: $color-bg-light;
+
   &__title {
     font-family: $ff-primary;
     color: $color-text-primary;
@@ -12,6 +13,7 @@
     line-height: 60px;
     font-weight: normal;
   }
+
   &__items {
     padding-bottom: 24px;
   }

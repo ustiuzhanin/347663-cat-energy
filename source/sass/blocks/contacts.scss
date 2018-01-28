@@ -1,5 +1,6 @@
 .contacts {
   padding: 20px;
+
   &__title {
     font-family: $ff-primary;
     color: $color-text-primary;
@@ -8,6 +9,7 @@
     text-transform: uppercase;
     font-weight: normal;
   }
+
   &__text {
     font-size: 14px;
     line-height: 20px;

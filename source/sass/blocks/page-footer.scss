@@ -3,10 +3,12 @@
   color: $color-text-secondary;
 
   background-color: $color-bg-dark;
+
   &__logo {
     padding: 20px;
   }
 }
+
 .page-footer--main .page-footer {
   &__contacts {
     background-color: $color-bg-light;

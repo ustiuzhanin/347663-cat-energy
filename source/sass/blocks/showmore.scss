@@ -6,6 +6,7 @@
   text-align: center;
 
   background-color: $color-bg-light;
+
   &__title {
     font-family: $ff-primary;
     color: $color-text-primary;
@@ -14,10 +15,12 @@
     text-transform: uppercase;
     font-weight: normal;
   }
+
   &__text {
     font-size: 12px;
     line-height: 16px;
   }
+
   &__button {
     color: $color-text-primary;
 

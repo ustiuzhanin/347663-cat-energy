@@ -4,6 +4,7 @@
   font-family: $ff-secondary;
   color: $color-text-secondary;
   background-color: $color-bg-light;
+
   &__title {
     font-family: $ff-primary;
     color: $color-text-primary;
@@ -11,6 +12,7 @@
     line-height: 60px;
     font-weight: normal;
   }
+
   &__text {
     font-size: 14px;
     line-height: 16px;
