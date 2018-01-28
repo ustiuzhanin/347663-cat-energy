@@ -1,27 +1,18 @@
-.advantages {
+.request {
   padding: 20px;
 
   font-family: $ff-secondary;
   color: $color-text-secondary;
-
   background-color: $color-bg-light;
   &__title {
-    margin: 0;
-
     font-family: $ff-primary;
+    color: $color-text-primary;
     font-size: 36px;
     line-height: 60px;
-    color: $color-text-primary;
     font-weight: normal;
   }
-  &__list {
-    margin: 0;
-    padding: 0;
-
-    list-style-type: none;
-  }
-  &__item {
+  &__text {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 16px;
   }
 }

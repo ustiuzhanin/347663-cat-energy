@@ -4,6 +4,11 @@
   font-family: $ff-primary;
   color: $color-text-tertiary;
   text-align: center;
+
+  background-image: url("../img/index-background-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
   &__headline {
     margin-bottom: 20px;
 
