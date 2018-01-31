@@ -4,13 +4,11 @@
 
   background-color: $color-bg-dark;
 
-  &__logo {
+  .page-footer__logo {
     padding: 20px;
   }
 }
 
-.page-footer--main .page-footer {
-  &__contacts {
-    background-color: $color-bg-light;
-  }
+.page-footer--main .page-footer__contacts {
+  background-color: $color-bg-light;
 }

@@ -1,48 +1,48 @@
 .form {
   font-family: $ff-primary;
+}
 
-  &__title {
-    font-size: 14px;
-    line-height: 18px;
-    text-transform: uppercase;
-    font-weight: normal;
-  }
+.form__title {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
 
-  &__fieldset {
-    padding: 20px 0;
-    border: none;
-  }
+.form__fieldset {
+  padding: 20px 0;
+  border: none;
+}
 
-  &__legend {
-    font-size: 24px;
-    line-height: 24px;
-    color: $color-text-primary;
-  }
+.form__legend {
+  font-size: 24px;
+  line-height: 24px;
+  color: $color-text-primary;
+}
 
-  &__textarea {
-    text-transform: uppercase;
-  }
+.form__textarea {
+  text-transform: uppercase;
+}
 
-  &__list {
-    margin: 0;
-    padding: 0;
+.form__list {
+  margin: 0;
+  padding: 0;
 
-    list-style-type: none;
-  }
+  list-style-type: none;
+}
 
-  &__label,
-  &__input {
-    font-size: 16px;
-    line-height: 18px;
-    text-transform: uppercase;
-  }
+.form__label,
+.form__input {
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
 
-  &__label {
-    color: #222222;
-    font-weight: normal;
-  }
+.form__label {
+  color: #222222;
+  font-weight: normal;
+}
 
-  &__input {
-    color: $color-text-secondary;
-  }
+.form__input {
+  color: $color-text-secondary;
 }

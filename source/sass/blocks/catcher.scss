@@ -9,17 +9,17 @@
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
+}
 
-  &__headline {
-    margin-bottom: 20px;
+.catcher__headline {
+  margin-bottom: 20px;
 
-    font-size: 36px;
-    line-height: 36px;
-  }
+  font-size: 36px;
+  line-height: 36px;
+}
 
-  &__caption {
-    font-size: 14px;
-    line-height: 14px;
-    text-transform: uppercase;
-  }
+.catcher__caption {
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
 }

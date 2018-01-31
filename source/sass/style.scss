@@ -1,5 +1,6 @@
 @import "global/variables";
 @import "global/fonts";
+@import "global/general";
 @import "blocks/page-header";
 @import "blocks/main-nav";
 @import "blocks/catcher";
@@ -19,7 +20,3 @@
 @import "blocks/bonus";
 @import "blocks/request";
 @import "blocks/form";
-
-body {
-  background: #95d4b0;
-}

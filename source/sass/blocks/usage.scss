@@ -3,43 +3,43 @@
 
   font-family: $ff-secondary;
   color: $color-text-secondary;
+}
 
-  &__list {
-    margin: 0;
-    padding: 0;
+.usage__list {
+  margin: 0;
+  padding: 0;
 
-    list-style-type: none;
-  }
+  list-style-type: none;
+}
 
-  &__item {
-    margin-top: 20px;
-    padding: 20px;
+.usage__item {
+  margin-top: 20px;
+  padding: 20px;
 
-    background-color: $color-bg-dark;
-  }
+  background-color: $color-bg-dark;
+}
 
-  &__title {
-    font-family: $ff-primary;
-    font-size: 24px;
-    line-height: 37px;
-    color: $color-text-primary;
-    text-transform: uppercase;
-    font-weight: normal;
-  }
+.usage__title {
+  font-family: $ff-primary;
+  font-size: 24px;
+  line-height: 37px;
+  color: $color-text-primary;
+  text-transform: uppercase;
+  font-weight: normal;
+}
 
-  &__description {
-    font-size: 14px;
-    line-height: 18px;
-  }
+.usage__description {
+  font-size: 14px;
+  line-height: 18px;
+}
 
-  &__link {
-    display: inline-block;
+.usage__link {
+  display: inline-block;
 
-    font-family: $ff-primary;
-    font-size: 16px;
-    line-height: 16px;
-    color: $color-text-primary;
-    text-transform: uppercase;
-    text-decoration: none;
-  }
+  font-family: $ff-primary;
+  font-size: 16px;
+  line-height: 16px;
+  color: $color-text-primary;
+  text-transform: uppercase;
+  text-decoration: none;
 }

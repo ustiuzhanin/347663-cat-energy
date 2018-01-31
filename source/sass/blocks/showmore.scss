@@ -6,24 +6,24 @@
   text-align: center;
 
   background-color: $color-bg-light;
+}
 
-  &__title {
-    font-family: $ff-primary;
-    color: $color-text-primary;
-    font-size: 16px;
-    line-height: 20px;
-    text-transform: uppercase;
-    font-weight: normal;
-  }
+.showmore__title {
+  font-family: $ff-primary;
+  color: $color-text-primary;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
 
-  &__text {
-    font-size: 12px;
-    line-height: 16px;
-  }
+.showmore__text {
+  font-size: 12px;
+  line-height: 16px;
+}
 
-  &__button {
-    color: $color-text-primary;
+.showmore__button {
+  color: $color-text-primary;
 
-    background-color: $color-bg-dark;
-  }
+  background-color: $color-bg-dark;
 }

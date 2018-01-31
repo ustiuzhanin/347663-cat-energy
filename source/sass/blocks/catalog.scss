@@ -5,16 +5,16 @@
   color: $color-text-secondary;
 
   background-color: $color-bg-light;
+}
 
-  &__title {
-    font-family: $ff-primary;
-    color: $color-text-primary;
-    font-size: 36px;
-    line-height: 60px;
-    font-weight: normal;
-  }
+.catalog__title {
+  font-family: $ff-primary;
+  color: $color-text-primary;
+  font-size: 36px;
+  line-height: 60px;
+  font-weight: normal;
+}
 
-  &__items {
-    padding-bottom: 24px;
-  }
+.catalog__items {
+  padding-bottom: 24px;
 }
