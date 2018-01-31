@@ -1,0 +1,20 @@
+.catalog {
+  padding: 20px;
+
+  font-family: $ff-secondary;
+  color: $color-text-secondary;
+
+  background-color: $color-bg-light;
+}
+
+.catalog__title {
+  font-family: $ff-primary;
+  color: $color-text-primary;
+  font-size: 36px;
+  line-height: 60px;
+  font-weight: normal;
+}
+
+.catalog__items {
+  padding-bottom: 24px;
+}

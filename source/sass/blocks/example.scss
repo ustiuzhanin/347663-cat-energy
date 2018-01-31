@@ -1,0 +1,42 @@
+.example {
+  padding: 20px;
+
+  font-family: $ff-secondary;
+  color: $color-text-secondary;
+
+  background-color: $color-bg-dark;
+}
+
+.example__title {
+  margin: 0;
+
+  font-family: $ff-primary;
+  font-size: 36px;
+  line-height: 60px;
+  color: $color-text-primary;
+  font-weight: normal;
+}
+
+.example__subject {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.example__result {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.example__facts {
+  font-family: $ff-primary;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.example__cost-fact {
+  font-family: $ff-primary;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}

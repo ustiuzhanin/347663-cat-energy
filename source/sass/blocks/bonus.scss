@@ -1,0 +1,18 @@
+.bonus {
+  padding: 20px;
+
+  font-family: $ff-secondary;
+  color: $color-text-tertiary;
+
+  background-image: url("../img/gift-photo-mobile@1x.jpg");
+  background-color: $color-bg-green;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.bonus__title {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: normal;
+}

@@ -1,0 +1,14 @@
+.button {
+  display: block;
+  padding: 10px;
+
+  font-family: $ff-primary;
+  font-size: 14px;
+  line-height: 18px;
+  color: $color-text-tertiary;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  background-color: $color-main;
+}

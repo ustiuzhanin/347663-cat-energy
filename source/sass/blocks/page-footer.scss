@@ -1,0 +1,14 @@
+.page-footer {
+  font-family: $ff-secondary;
+  color: $color-text-secondary;
+
+  background-color: $color-bg-dark;
+
+  .page-footer__logo {
+    padding: 20px;
+  }
+}
+
+.page-footer--main .page-footer__contacts {
+  background-color: $color-bg-light;
+}

@@ -1,0 +1,45 @@
+.usage {
+  padding: 0 20px;
+
+  font-family: $ff-secondary;
+  color: $color-text-secondary;
+}
+
+.usage__list {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.usage__item {
+  margin-top: 20px;
+  padding: 20px;
+
+  background-color: $color-bg-dark;
+}
+
+.usage__title {
+  font-family: $ff-primary;
+  font-size: 24px;
+  line-height: 37px;
+  color: $color-text-primary;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.usage__description {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.usage__link {
+  display: inline-block;
+
+  font-family: $ff-primary;
+  font-size: 16px;
+  line-height: 16px;
+  color: $color-text-primary;
+  text-transform: uppercase;
+  text-decoration: none;
+}
