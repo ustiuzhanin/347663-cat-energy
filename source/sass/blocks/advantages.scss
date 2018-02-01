@@ -28,3 +28,22 @@
   font-size: 14px;
   line-height: 18px;
 }
+
+@media (min-width: $tablet-width) {
+  .advantages__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .advantages__item {
+    max-width: 50%;
+    padding-right: 20%;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .advantages__item {
+    max-width: 25%;
+    padding-right: 5%;
+  }
+}

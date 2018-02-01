@@ -5,3 +5,9 @@
 
   background-color: $color-bg-light;
 }
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    display: flex;
+  }
+}

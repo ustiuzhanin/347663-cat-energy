@@ -19,3 +19,9 @@
   text-decoration: none;
   color: $color-text-primary;
 }
+
+@media (min-width: $tablet-width) {
+  .main-nav__item {
+    display: inline-block;
+  }
+}

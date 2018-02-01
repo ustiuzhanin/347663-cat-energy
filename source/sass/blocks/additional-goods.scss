@@ -8,6 +8,8 @@
 }
 
 .additional-goods__title {
+  width: 100%;
+
   font-family: $ff-primary;
   color: $color-text-primary;
   font-size: 24px;
@@ -17,4 +19,23 @@
 
 .additional-goods__item {
   padding-bottom: 17px;
+}
+
+@media (min-width: $desktop-width) {
+  .additional-goods {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .additional-goods .product__button {
+    width: 30%;
+  }
+
+  .additional-goods__wrapper {
+    width: 70%;
+  }
+
+  .additional-goods__bonus {
+    width: 30%;
+  }
 }

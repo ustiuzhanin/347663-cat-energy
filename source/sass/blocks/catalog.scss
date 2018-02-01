@@ -8,6 +8,8 @@
 }
 
 .catalog__title {
+  width: 100%;
+
   font-family: $ff-primary;
   color: $color-text-primary;
   font-size: 36px;
@@ -17,4 +19,21 @@
 
 .catalog__items {
   padding-bottom: 24px;
+}
+
+@media (min-width: $tablet-width) {
+  .catalog {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .catalog__items {
+    width: 50%;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .catalog__items {
+    width: 25%;
+  }
 }
