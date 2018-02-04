@@ -10,7 +10,10 @@
 }
 
 .form__fieldset {
+  width: 100%;
+  margin: 0;
   padding: 20px 0;
+
   border: none;
 }
 
@@ -45,4 +48,49 @@
 
 .form__input {
   color: $color-text-secondary;
+}
+
+@media (min-width: $tablet-width) {
+  .form__fieldset--additional {
+    .form__list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .form__item {
+      width: 50%;
+    }
+  }
+
+  .request__wrapper {
+    display: flex;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .form__title {
+    width: 100%;
+  }
+
+  .form__fieldset--initials,
+  .form__fieldset--purpose {
+    width: 50%;
+  }
+
+  .form__fieldset--information {
+    .form__list {
+      display: flex;
+    }
+  }
+
+  .form__fieldset--additional {
+    .form__item {
+      width: 25%;
+    }
+  }
 }

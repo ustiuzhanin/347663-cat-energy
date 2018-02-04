@@ -22,7 +22,13 @@
   line-height: 18px;
 }
 
+.example__wrapper--result {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .example__result {
+  max-width: 140px;
   font-size: 12px;
   line-height: 12px;
 }
@@ -39,4 +45,14 @@
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
+}
+
+@media (min-width: $desktop-width) {
+  .example {
+    display: flex;
+  }
+
+  .example__wrapper {
+    width: 50%;
+  }
 }
